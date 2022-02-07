@@ -1,5 +1,5 @@
 # PWAVersionUpdater4Mendix
-PWA version update module for Mendix projects
+Update your offline PWA based on deployed model version
 
 -----------------------------------
 INSTRUCTIONS:
