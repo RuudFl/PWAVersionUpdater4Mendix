@@ -11,6 +11,6 @@ INSTRUCTIONS:
 
 Dependencies:
 
-- Mendix Runtime > 9.6.6
+- Mendix Runtime 9.6.6 or higher
 - MicroflowTimer (Mendix)
 - CommunityCommons (Mendix)
