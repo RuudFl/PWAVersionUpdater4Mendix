@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mendix.com/package/1.0/">
+  <modelerProject xmlns="http://www.mendix.com/modelerProject/1.0/">
+    <module name="PWAVersionUpdater" />
+    <projectFile path="project.mpr" />
+    <files>
+      <file path="javascriptsource\pwaversionupdater\actions\JS_IsInstalledAsPWA.js" />
+      <file path="javascriptsource\pwaversionupdater\actions\JS_IsConnected.js" />
+      <file path="javascriptsource\pwaversionupdater\actions\JS_ReloadPWA.js" />
+      <file path="themesource\pwaversionupdater\settings.json" />
+      <file path="themesource\pwaversionupdater\native\design-properties.json" />
+      <file path="themesource\pwaversionupdater\native\main.js" />
+      <file path="themesource\pwaversionupdater\web\design-properties.json" />
+      <file path="themesource\pwaversionupdater\web\main.scss" />
+      <file path="widgets\MicroflowTimer.mpk" />
+    </files>
+  </modelerProject>
+</package>
