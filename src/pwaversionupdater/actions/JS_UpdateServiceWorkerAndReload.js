@@ -11,10 +11,19 @@ import { Big } from "big.js";
 // END EXTRA CODE
 
 /**
- * @returns {Promise.<void>}
+ * @returns {Promise.<boolean>}
  */
-export async function JS_ReloadPWA() {
+export async function JS_UpdateServiceWorkerAndReload() {
 	// BEGIN USER CODE
-	window.location.reload();
+function forceServiceWorkerUpdate() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function (registrations) {
+      for (let registration of registrations) {
+        registration.unregister();
+      }
+      window.location.reload();
+    });
+  }
+}   
 	// END USER CODE
 }
